@@ -11,6 +11,9 @@ export function parseString(value) {
     if (lowercase === 'false') return false;
   }
   let number = Number(value);
+  if (number === 0 && !value.includes('0')) {
+    return value;
+  }
   if (!Number.isNaN(number)) return number;
   return value;
 }
