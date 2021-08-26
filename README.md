@@ -5,11 +5,20 @@
 [![Test coverage][codecov-image]][codecov-url]
 [![npm download][download-image]][download-url]
 
-Dynamically type a string.
+## Dynamically types a string.
 
-Becomes a boolean if the value to lowercase is 'true' or 'false'
-Becomes a number if (! isNaN). This will also convert hexadecimal numbers
-Stays a string otherwise
+When parsing text files, like the ones coming out fromm scientific instruments,
+it is often useful to convert the obtained strings to their corresponding types.
+
+Indeed when you parse the file while all the fields are text some of them represents in fact numbers or booleans.
+
+This package will try to make the conversion for you using the following rules:
+
+- a string that has as lowercase value 'true' or 'false' will be converted to the corresponding boolean
+- a string that when converted to number (using `Number(string)`) does not yield to NaN will be converted to number
+- other strings will be kept as string
+
+This package was optimized for speed and seems to work pretty well. Please don't hesitate to submit bug reports or contribute.
 
 ## Installation
 
@@ -24,6 +33,23 @@ const result = parseString('0x100');
 
 // result is the number 256
 ```
+
+More examples:
+
+- `parseString('')` ➡ `''`
+- `parseString(' ')` ➡ `' '`
+- `parseString('.')` ➡ `'.'`
+- `parseString('0.')` ➡ `0`
+- `parseString('0.0')` ➡ `0`
+- `parseString('abc')` ➡ `'abc'`
+- `parseString('True')` ➡ `true`
+- `parseString('false')` ➡ `false`
+- `parseString('0')` ➡ `0`
+- `parseString('123')` ➡ `123`
+- `parseString('123.456')` ➡ `123.456`
+- `parseString('12e3')` ➡ `12000`
+- `parseString('0x10')` ➡ `16`
+- `parseString('0b10')` ➡ `2`
 
 ## [API Documentation](https://cheminfo.github.io/dynamic-typing/)
 
