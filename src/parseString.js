@@ -1,7 +1,7 @@
 /**
  * Dynamically type a string
- * {string} [value]
- * @return {boolean|string|number}
+ * @param {string} value String to dynamically type
+ * @returns {boolean|string|number}
  */
 export function parseString(value) {
   if (value.length === 4 || value.length === 5) {
