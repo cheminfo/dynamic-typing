@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/cheminfo/dynamic-typing/compare/v0.1.2...v0.1.3) (2021-08-26)
+
+
+### Bug Fixes
+
+* actions to deal with branch main ([eb22eae](https://www.github.com/cheminfo/dynamic-typing/commit/eb22eae0abd0c1fc8afbf3eb2c5b6ddc2661859b))
+* migrate branch from master to main ([0004a62](https://www.github.com/cheminfo/dynamic-typing/commit/0004a622f1f46ee9b7bd8bd2bc7fea1c30522674))
+
 ### [0.1.2](https://www.github.com/cheminfo/dynamic-typing/compare/v0.1.1...v0.1.2) (2021-08-26)
 
 
