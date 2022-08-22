@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0](https://github.com/cheminfo/dynamic-typing/compare/v0.1.3...v1.0.0) (2022-08-22)
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([813a416](https://github.com/cheminfo/dynamic-typing/commit/813a416f3baec5f5553f0a3cc9d0b4143b662674))
+* update workflows ([36a6329](https://github.com/cheminfo/dynamic-typing/commit/36a632982ad85651cc599ed290c2daf64c7d10c1))
+
 ### [0.1.3](https://www.github.com/cheminfo/dynamic-typing/compare/v0.1.2...v0.1.3) (2021-08-26)
 
 
