@@ -1,6 +1,6 @@
 {
   "name": "dynamic-typing",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Dynamically type a string",
   "main": "lib/index.js",
   "module": "src/index.js",
