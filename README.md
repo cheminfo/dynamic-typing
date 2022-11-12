@@ -4,6 +4,7 @@
 [![build status][ci-image]][ci-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![npm download][download-image]][download-url]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5482823.svg)](https://doi.org/10.5281/zenodo.5482823)
 
 ## Dynamically types a string.
 
