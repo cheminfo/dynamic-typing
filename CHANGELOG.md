@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cheminfo/dynamic-typing/compare/v1.0.0...v1.0.1) (2022-11-15)
+
+
+### Documentation
+
+* add link to Zenodo ([c10aaa3](https://github.com/cheminfo/dynamic-typing/commit/c10aaa39b6253bcd34c6b6c64b2ebf6a70d8d18e))
+
 ## [1.0.0](https://github.com/cheminfo/dynamic-typing/compare/v0.1.3...v1.0.0) (2022-08-22)
 
 
