@@ -1,8 +1,3 @@
-/**
- * Dynamically type a string
- * @param {string} value String to dynamically type
- * @returns {boolean|string|number}
- */
 export function parseString(value: string): boolean | string | number {
   if (value.length === 4 || value.length === 5) {
     const lowercase = value.toLowerCase();
