@@ -1,1 +1,1 @@
-export * from './parseString';
+export * from './parseString.ts';

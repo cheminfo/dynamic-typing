@@ -1,4 +1,6 @@
-import { parseString } from '../parseString';
+import { expect, test } from 'vitest';
+
+import { parseString } from '../parseString.ts';
 
 test('parseString', () => {
   expect(parseString('')).toBe('');
