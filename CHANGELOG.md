@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/cheminfo/dynamic-typing/compare/v1.0.1...v2.0.0) (2026-02-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to type:module
+
+### Miscellaneous Chores
+
+* migrate to type:module ([d8ea9b6](https://github.com/cheminfo/dynamic-typing/commit/d8ea9b609ea0e2a0f440752198a52c69e505f069))
+
 ## [1.0.1](https://github.com/cheminfo/dynamic-typing/compare/v1.0.0...v1.0.1) (2022-11-15)
 
 

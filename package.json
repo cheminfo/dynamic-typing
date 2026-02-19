@@ -1,6 +1,6 @@
 {
   "name": "dynamic-typing",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Dynamically type a string",
   "type": "module",
   "exports": {
